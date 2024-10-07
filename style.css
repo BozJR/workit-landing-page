@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Manrope:wght@200..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fraunces", serif;;
+}
+
+.header__main {
+    background-color: #24053e;
+    color: white;
+    margin-bottom: 12rem;
+    border-bottom-left-radius: 90% 5%;
+    border-bottom-right-radius: 90% 5%;
+}
+
+.header__main__logos {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1.25rem 0 1.25rem;
+}
+
+.header__main__logos a {
+    color: white;
+    font-size: 18px;
+    line-height: 180%;
+    letter-spacing: 0px;
+    font-family: "Manrope", sans-serif;
+    text-decoration: none;
+    border-bottom: 3px solid #44ffa1;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 3.5rem;
+    padding: 0 1.25rem 0 1.25rem;
+    height: 320px;
+}
+
+.hero__container h1 {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0px;
+    margin-bottom: 2.5rem;
+}
+
+.hero__container span {
+    border-bottom: 3px solid #44ffa1;
+}
+
+.hero__container button {
+    background-color: #44ffa1;
+    width: 150px;
+    height: 53px;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 180%;
+}
+
+.hero__container__img img {
+    width: 330px;
+    position: absolute;
+    top: 40%;
+    left: 7%;
+}
+
+.main__product__container {
+    color: #24053e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1.25rem 2rem 1.25rem;
+}
+
+.product__container__num {
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.product__container__title {
+    margin: 1rem 0 1rem 0;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0px;
+}
+
+.product__container__description {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0px;
+}
+
+.section__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.25rem 0 1.25rem;
+    margin-top: 7rem;
+}
+
+.section__img img {
+    width: 250px;
+    position: absolute;
+    top: 168%;
+    left: 18%; 
+}
+
+.section__info {
+    background-color: #24053e;
+    color: white;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    z-index: 1;
+    text-align: center;
+    padding: 2rem;
+}
+
+.section__info h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0px;
+    margin-bottom: 2rem;
+}
+
+.section__info p {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0px;
+    margin-bottom: 2rem;
+}
+
+.section__info button {
+    background-color: #44ffa1;
+    width: 190px;
+    height: 53px;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 180%;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 5rem;
+}
+
+.footer__icons {
+    display: flex;
+    gap: 1rem;
+}
