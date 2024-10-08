@@ -13,7 +13,7 @@ body {
 .header__main {
     background-color: #24053e;
     color: white;
-    margin-bottom: 12rem;
+    margin-bottom: 10rem;
     border-bottom-left-radius: 90% 5%;
     border-bottom-right-radius: 90% 5%;
 }
@@ -41,7 +41,7 @@ body {
     text-align: center;
     margin-top: 3.5rem;
     padding: 0 1.25rem 0 1.25rem;
-    height: 320px;
+    height: 355px;
 }
 
 .hero__container h1 {
@@ -70,7 +70,7 @@ body {
 .hero__container__img img {
     width: 330px;
     position: absolute;
-    top: 40%;
+    top: 28%;
     left: 7%;
 }
 
@@ -119,7 +119,7 @@ body {
 .section__img img {
     width: 250px;
     position: absolute;
-    top: 168%;
+    top: 111%;
     left: 18%; 
 }
 
@@ -172,4 +172,31 @@ body {
 .footer__icons {
     display: flex;
     gap: 1rem;
+}
+
+/*@media (min-width: 768px) {
+    .header__main__logos {
+        padding: 2rem 2.75rem 0 2.75rem;
+    }
+
+    .hero__container {
+        height: 450px;
+    }
+
+    .hero__container h1 {
+        font-size: 60px;
+        width: 450px;
+    }
+
+    .hero__container__img img {
+        width: 500px;
+        height: 300px;
+        position: absolute;
+        top: 23%;
+        left: 18%;
+    }
+
+    .main__product__container {
+        border: 1px solid red ;
+    }
 }
