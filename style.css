@@ -35,13 +35,15 @@ body {
 }
 
 .hero__container {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-top: 3.5rem;
     padding: 0 1.25rem 0 1.25rem;
-    height: 355px;
+    height: 360px;
+    
 }
 
 .hero__container h1 {
@@ -69,10 +71,12 @@ body {
 
 .hero__container__img img {
     width: 330px;
-    position: absolute;
-    top: 28%;
-    left: 7%;
+    position: absolute; /* Keeps the image positioned relative to the container */
+    top: 380px;
+    left: 50%; /* Moves the image to the center */
+    transform: translateX(-50%); /* Shifts the image back by 50% of its width to truly center it */
 }
+    
 
 .main__product__container {
     color: #24053e;
@@ -113,20 +117,21 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0 1.25rem 0 1.25rem;
-    margin-top: 7rem;
+    margin-top: 4rem;
+    position: relative;
 }
 
 .section__img img {
     width: 250px;
-    position: absolute;
-    top: 111%;
-    left: 18%; 
+    position: relative; 
+    z-index: -10;
+    top: 50px;
 }
 
 .section__info {
     background-color: #24053e;
     color: white;
-    margin-top: 10rem;
+    
     margin-bottom: 5rem;
     z-index: 1;
     text-align: center;
