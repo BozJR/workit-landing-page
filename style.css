@@ -35,6 +35,10 @@ body {
     border-bottom: 3px solid #44ffa1;
 }
 
+.header__main__logos a:hover{
+    color: #44ffa1;
+}
+
 .hero__container {
     position: relative;
     display: flex;
@@ -71,6 +75,13 @@ body {
     line-height: 180%;
 }
 
+.hero__container button:hover,
+.section__container button:hover {
+    background-color: #24053e;
+    color: #44ffa1;
+    border: 1px solid #44ffa1;
+}
+
 .hero__container__img img {
     width: 330px;
     position: absolute; /* Keeps the image positioned relative to the container */
@@ -84,7 +95,6 @@ body {
     display: none
 }
     
-
 .main__product__container {
     color: #24053e;
     display: flex;
@@ -286,4 +296,98 @@ body {
         right: 0px;
         z-index: 10;
     }
+}
+
+@media (min-width:1440px) {
+    .header__main__logos {
+        padding: 2rem 10rem 0 10rem;
+    }
+    
+    .hero__container__bg__img {
+        display: none;
+    }
+
+    .hero__container__bg__img3 {
+        display: block;
+        position: absolute;
+        left: -70px;
+        top: 100px;
+        overflow-x: hidden;
+    }
+    
+    .hero__container__bg__img2 {
+        right: -40px;
+        top: 200px;
+    }
+
+    .main__container {
+        flex-direction: row;
+        margin: 0 10rem 0 10rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__product__container {
+        flex-direction: column;
+        height: 306px;
+        width: 352px; 
+        padding-top: 1rem;
+        
+    }
+
+    .product__container__num {
+        display: flex;
+        flex-direction: column;
+        margin-top: -3rem;
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .product__container__title {
+        text-align: center;
+    }
+
+    .product__container__description {
+        font-size: 17px;
+        line-height: 180%;
+        letter-spacing: 0px;
+    }
+
+    .section__container {
+        margin: 4rem 10rem 6rem 10rem;
+        padding-right: 0;
+    }
+    
+    .section__img img {
+        left: -335px;
+        top: 200px;
+        width: 450px;
+    }
+
+    .section__info {
+        width: 730px;
+        height: 779px;
+        margin-left: auto;
+        position: relative;
+        top: -50px;
+        padding: 4rem;
+    }
+
+    .section__info p {
+        font-size: 18px;
+        padding-right: 0;
+    }
+
+    .section__info button {
+        margin-left: -10rem;
+    }
+
+    .section__info__img {
+        display: block;
+        position: absolute;
+        bottom: -100px;
+        right: 100px;
+        z-index: 10;
+    }
+    
 }
