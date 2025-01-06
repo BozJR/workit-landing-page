@@ -1,19 +1,15 @@
-# Frontend Mentor - Workit landing page solution
+# Workit landing page
 
-This is My solution to the [Workit landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is My solution to a simple landing page. 
 
 ## Table of contents
 
-- [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
   - [Author](#author)
 
-
-## Overview
 
 ### The challenge
 
@@ -32,8 +28,6 @@ Users should be able to:
 - Live Site URL: [https://bozjr-workit-landing-page.netlify.app/](https://bozjr-workit-landing-page.netlify.app/)
 
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
@@ -43,5 +37,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@BozJR](https://www.frontendmentor.io/profile/BozJR)
+- GitHub Profile - https://github.com/BozJR?tab=repositories
 
